@@ -12,3 +12,7 @@
 
 // your code here
 
+foods.forEach(function(food)  {
+  console.log(food.name  + " is " + food.level + " delicious")
+})
+

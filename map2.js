@@ -31,3 +31,24 @@ var phoneBook = [
 // For example, the 0th element of the new array should be {Abe: "1-111-111-1111"}
 
 //Your code here
+
+function country() {
+  if (Object. === "111-111-1111") {
+    console.log("1-" + Object.value)
+  } else if (Object.value === "222-222-2222") {
+    console.log("2-" + "222-222-2222")
+  } else if (Object.value === "333-333-3333") {
+    console.log("3-" + "333-333-3333")
+  } else if (Object.value === "444-444-4444") {
+    console.log("4-" + "444-444-4444")
+  } else if (Object.value === "555-555-5555") {
+    console.log("5-" + "555-555-5555")
+  } else {
+    console.log("I must not understand how this works")
+  }
+}
+
+let newNumber = phoneBook.map(country)
+
+console.log(newNumber)
+
